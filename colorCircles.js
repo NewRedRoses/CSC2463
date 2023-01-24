@@ -6,8 +6,9 @@ function setup() {
 function draw() {
   background(280);
   push();
+  // White background
   fill("rgba(18, 109, 248, 0.4)");
-  // rgba(18, 109, 248, 0.8);
+
   noStroke();
   ellipse(100, 100, 100, 100);
   pop();
